@@ -1,0 +1,29 @@
+<% include head %>
+
+  <!-- Wrapper -->
+  <div id="wrapper">
+
+    <% include header %>
+
+      <!-- Main -->
+      <section id="main">
+
+        <!-- SKILLS -->
+        <section class="skills">
+        <% for (var i=0; i < data.mySkills.length; i++) { %>
+          <% include skill-item %>
+        <% } %>
+        </section>
+
+        <!-- Thumbnails -->
+        <section class="thumbnails">
+        <% for (var i=0; i < data.myProjects.length; i++) { %>
+          <% include portfolio-item %>
+        <% } %>
+        </section>
+
+      </section>
+
+  </div>
+
+<% include footer %>

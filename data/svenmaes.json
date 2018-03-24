@@ -1,0 +1,62 @@
+{
+  "myInfo": {
+    "name": "Maes Sven",
+    "bio": "Lecturer <strong>Web</strong> Development",
+    "image": "avatar.jpg",
+    "socials": [
+      {
+        "name": "Facebook",
+        "icon": "fa-facebook",
+        "url": "https://www.facebook.com/sven"
+      },
+      {
+        "name": "Twitter",
+        "icon": "fa-twitter",
+        "url": "https://www.twitter.com/sven"
+      },
+      {
+        "name": "Instagram",
+        "icon": "fa-instagram",
+        "url": "https://www.instagram.com/sven"
+      },
+      {
+        "name": "500 px",
+        "icon": "fa-500px",
+        "url": "https://www.500.px/sven"
+      }
+    ]
+  },
+  "mySkills": [
+    {
+      "name": "teaching",
+      "value": 4
+    },
+    {
+      "name": "speaking",
+      "value": 2
+    }
+  ],
+  "myProjects": [
+    {
+      "title": "Project CMT3",
+      "description": "We did some basic javascript libraries, which were a blast!",
+      "category": ["web", "development", "front-end", "teaching"],
+      "image": "01.jpg",
+      "date": "2017 september"
+    },
+    {
+      "title": "Project CMT4",
+      "description": "Going for an adventure with mEaN",
+      "category": ["web", "development", "back-end", "teaching"],
+      "image": "02.jpg",
+      "date": "2018 february"
+    },
+    {
+      "title": "Project CMP5",
+      "description": "Going harder, faster, stronger by rebuidling the amazing \"De lijn\"-app",
+      "category": ["app", "project management", "API's", "teaching"],
+      "image": "03.jpg",
+      "date": "2017 september"
+    }
+  ]
+}

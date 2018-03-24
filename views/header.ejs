@@ -1,0 +1,10 @@
+<!-- Header -->
+  <header id="header">
+    <span class="avatar"><img src="images/<%= data.myInfo.image %>" alt="" /></span>
+    <h1><%- data.myInfo.bio %></h1>
+    <ul class="icons">
+      <% for (var i=0; i < data.myInfo.socials.length; i++) {%>
+        <% include social-item %>
+      <% }%>
+    </ul>
+  </header>
